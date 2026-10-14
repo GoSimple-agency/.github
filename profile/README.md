@@ -4,7 +4,8 @@ We build software that takes a legal obligation and turns it into one API call.
 
 ## Tezga — fiscalization for Serbia
 
-<a href="https://tezgafiskal.com"><img alt="Tezga eKasa" src="./assets/tezga-lockup-dark.svg" width="260"></a>
+![Tezga eKasa](./assets/tezga-logo-light.svg#gh-light-mode-only)
+![Tezga eKasa](./assets/tezga-logo-dark.svg#gh-dark-mode-only)
 
 **[Tezga](https://tezgafiskal.com)** is a cloud ESIR that works with the Serbian Tax
 Administration's virtual processor of fiscal receipts (V-PFR). Your platform calls a REST
