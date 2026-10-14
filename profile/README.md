@@ -32,6 +32,14 @@ contract so they cannot drift from the docs.
 - [OpenAPI specification](https://tezgafiskal.com/api/openapi.json) — the source of truth
 - [MCP connector](https://tezgafiskal.com/mcp-konektor) — issue test receipts from Claude, Cursor or Codex while you build
 
+## What teams build with Tezga
+
+Integration patterns from production projects — branded webshop receipts, a full back
+office with stock and refunds, clean Excel exports for accounting, excise goods from
+proforma to SEF e-invoice, and subscriptions settled with linked advances.
+
+See **[the full write-up](https://github.com/GoSimple-agency/.github/blob/main/USE-CASES.md)**.
+
 ## Apps
 
 Tezga on [iOS](https://apps.apple.com/rs/app/tezga-ekasa/id6815615096) and
