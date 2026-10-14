@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question about integrating
+    url: https://github.com/orgs/GoSimple-agency/discussions
+    about: Ask in Discussions → Q&A.
+  - name: Security vulnerability
+    url: https://github.com/GoSimple-agency/.github/blob/main/SECURITY.md
+    about: Report privately. Never open a public issue for a security problem.
+  - name: Account, billing or a specific receipt
+    url: https://github.com/GoSimple-agency/.github/blob/main/SUPPORT.md
+    about: These go to email, because they involve private data.

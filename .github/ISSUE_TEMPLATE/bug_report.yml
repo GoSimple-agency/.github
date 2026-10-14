@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in an SDK does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public. **Do not paste API keys, webhook secrets, real PIBs, customer data or real receipts.**
+        Security problems go through [SECURITY.md](https://github.com/GoSimple-agency/.github/blob/main/SECURITY.md) instead.
+  - type: dropdown
+    id: sdk
+    attributes:
+      label: SDK
+      options:
+        - JavaScript / TypeScript (tezga-sdk)
+        - PHP (gosimple/tezga)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SDK version
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime version
+      placeholder: "Node.js 24.1 / PHP 8.4.2"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: The smallest code that shows the problem, using made-up data.
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I removed every API key, secret and piece of real customer data from this report.
+          required: true
