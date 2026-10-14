@@ -32,6 +32,16 @@ contract so they cannot drift from the docs.
 - [OpenAPI specification](https://tezgafiskal.com/api/openapi.json) — the source of truth
 - [MCP connector](https://tezgafiskal.com/mcp-konektor) — issue test receipts from Claude, Cursor or Codex while you build
 
+## Reliability
+
+- **Approved ESIR**, registration number **1597** with the Serbian Tax Administration.
+- **Sandbox and simulation** environments — build and test without issuing real receipts.
+- SDKs are **published from CI with npm provenance**, so each release is traceable to the
+  exact commit it was built from.
+- Releases require **two-factor authentication** (trusted publishing), and CI runs the
+  full test suite on **Node.js 22–24** and **PHP 8.1–8.5** before anything ships.
+- **Idempotency** on every receipt (`externalId`) — a retried call never issues twice.
+
 ## What teams build with Tezga
 
 Integration patterns from production projects — branded webshop receipts, a full back
