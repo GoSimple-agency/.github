@@ -50,6 +50,11 @@ proforma to SEF e-invoice, and subscriptions settled with linked advances.
 
 See **[the full write-up](https://github.com/GoSimple-agency/.github/blob/main/USE-CASES.md)**.
 
+## Enterprise
+
+High-volume fiscalization with dedicated rate limits, priority support and a contract
+tailored to your business — see **[Tezga Enterprise](https://tezgafiskal.com/en/enterprise)**.
+
 ## Apps
 
 Tezga on [iOS](https://apps.apple.com/rs/app/tezga-ekasa/id6815615096) and
