@@ -61,5 +61,6 @@ We build and run production software for retail, hospitality and services.
 Reach us at **info@gosimple.agency** or at [gosimple.agency](https://gosimple.agency).
 
 Questions about integrating? Ask in [Discussions](https://github.com/orgs/GoSimple-agency/discussions).
-See [SUPPORT](https://github.com/GoSimple-agency/.github/blob/main/SUPPORT.md) for where to take what, and
+See [SUPPORT](https://github.com/GoSimple-agency/.github/blob/main/SUPPORT.md) for where to take what,
+[VERSIONING](https://github.com/GoSimple-agency/.github/blob/main/VERSIONING.md) for our deprecation policy, and
 [SECURITY](https://github.com/GoSimple-agency/.github/blob/main/SECURITY.md) to report a vulnerability.
